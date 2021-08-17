@@ -2,9 +2,10 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import ApolloProvider from './ApolloProvider';
+import App from './App'
 
 ReactDOM.render(
-  ApolloProvider,
+  <App />,
   document.getElementById('root')
 );
 
