@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/brianventura/static/css/main.f943a97c.chunk.css",
-    "main.js": "/brianventura/static/js/main.1358cb21.chunk.js",
-    "main.js.map": "/brianventura/static/js/main.1358cb21.chunk.js.map",
+    "main.js": "/brianventura/static/js/main.e8a17287.chunk.js",
+    "main.js.map": "/brianventura/static/js/main.e8a17287.chunk.js.map",
     "runtime-main.js": "/brianventura/static/js/runtime-main.68d86033.js",
     "runtime-main.js.map": "/brianventura/static/js/runtime-main.68d86033.js.map",
     "static/css/2.567f37b8.chunk.css": "/brianventura/static/css/2.567f37b8.chunk.css",
-    "static/js/2.cef66bfa.chunk.js": "/brianventura/static/js/2.cef66bfa.chunk.js",
-    "static/js/2.cef66bfa.chunk.js.map": "/brianventura/static/js/2.cef66bfa.chunk.js.map",
+    "static/js/2.89ba123f.chunk.js": "/brianventura/static/js/2.89ba123f.chunk.js",
+    "static/js/2.89ba123f.chunk.js.map": "/brianventura/static/js/2.89ba123f.chunk.js.map",
     "static/js/3.aa3d6fc6.chunk.js": "/brianventura/static/js/3.aa3d6fc6.chunk.js",
     "static/js/3.aa3d6fc6.chunk.js.map": "/brianventura/static/js/3.aa3d6fc6.chunk.js.map",
     "index.html": "/brianventura/index.html",
     "static/css/2.567f37b8.chunk.css.map": "/brianventura/static/css/2.567f37b8.chunk.css.map",
     "static/css/main.f943a97c.chunk.css.map": "/brianventura/static/css/main.f943a97c.chunk.css.map",
-    "static/js/2.cef66bfa.chunk.js.LICENSE.txt": "/brianventura/static/js/2.cef66bfa.chunk.js.LICENSE.txt",
-    "static/media/Brian_Ventura.a8e0acfd.pdf": "/brianventura/static/media/Brian_Ventura.a8e0acfd.pdf",
+    "static/js/2.89ba123f.chunk.js.LICENSE.txt": "/brianventura/static/js/2.89ba123f.chunk.js.LICENSE.txt",
+    "static/media/Brian_Ventura.453dbc41.pdf": "/brianventura/static/media/Brian_Ventura.453dbc41.pdf",
     "static/media/algracing1.9afada92.png": "/brianventura/static/media/algracing1.9afada92.png",
     "static/media/semantic.min.css": "/brianventura/static/media/outline-icons.ddae9b1b.woff",
     "static/media/computer-vision.a61fa972.jpg": "/brianventura/static/media/computer-vision.a61fa972.jpg",
@@ -31,8 +31,8 @@
   "entrypoints": [
     "static/js/runtime-main.68d86033.js",
     "static/css/2.567f37b8.chunk.css",
-    "static/js/2.cef66bfa.chunk.js",
+    "static/js/2.89ba123f.chunk.js",
     "static/css/main.f943a97c.chunk.css",
-    "static/js/main.1358cb21.chunk.js"
+    "static/js/main.e8a17287.chunk.js"
   ]
 }
