@@ -1,0 +1,24 @@
+html {
+  height: 100%;
+  background-color: #151320;
+}
+
+body {
+  margin: 0;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+:root {
+  --subsection: #222220;
+  --linkColor: #9580FF;
+  --margin: 4rem;
+  --standardTransition: ease-in-out 0.5s
+}

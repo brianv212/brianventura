@@ -1,0 +1,40 @@
+.navbar-container {
+    background-color: #222220;
+    height: 3rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar-title {
+    width: 30%;
+    line-height: 3rem;
+    margin-left: 1rem
+}
+
+.navbar-me {
+    height: 2.5rem;
+    width: 2.5rem;
+    margin-top: 0.25rem;
+    border-radius: 50%;
+    margin-left: 2.5rem
+}
+
+.navbar-directory {
+    width: 70%;
+    line-height: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: var(--margin);
+}
+
+.navbar-link {
+    color: var(--linkColor);
+    text-decoration: none;
+    transition: var(--standardTransition);
+    margin-left: 1.5rem;
+}
+
+.navbar-link:hover {
+    color: green;
+}

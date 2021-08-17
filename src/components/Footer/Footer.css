@@ -1,0 +1,26 @@
+.footer-footer {
+    background-color: var(--subsection);
+    height: 5rem;
+    margin-top: auto;
+    width: 100%;
+}
+
+.footer-container {
+    margin-left: var(--margin);
+    line-height: 5rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-container > * {
+    margin: 0 2rem 0 0
+}
+
+.footer-link {
+    color: var(--linkColor);
+    transition: var(--standardTransition)
+}
+
+.footer-link:hover {
+    color: green
+}
