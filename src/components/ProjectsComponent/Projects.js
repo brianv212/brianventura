@@ -25,7 +25,7 @@ function Projects () {
                         <img src={Tetris} alt="Covid-19 Simulator" className="projects-feature-img"/>
                         <p> 
                             Tetris is one of my favorite games. I thought it'd be a neat idea to try to code it and
-                            also get back in touch with Python because I haven't really done much with the language.
+                            also get back in touch with Python because I haven't really done much with the language recently.
                             There's a lot to add to make it better, so I see it as something I can always go back to
                             and add to when I get the chance.
                         </p>

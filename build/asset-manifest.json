@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/brianventura/static/css/main.f943a97c.chunk.css",
-    "main.js": "/brianventura/static/js/main.262617d2.chunk.js",
-    "main.js.map": "/brianventura/static/js/main.262617d2.chunk.js.map",
+    "main.js": "/brianventura/static/js/main.0800b293.chunk.js",
+    "main.js.map": "/brianventura/static/js/main.0800b293.chunk.js.map",
     "runtime-main.js": "/brianventura/static/js/runtime-main.68d86033.js",
     "runtime-main.js.map": "/brianventura/static/js/runtime-main.68d86033.js.map",
     "static/css/2.567f37b8.chunk.css": "/brianventura/static/css/2.567f37b8.chunk.css",
@@ -26,13 +26,14 @@
     "static/media/machine-learning.749d8a43.jpg": "/brianventura/static/media/machine-learning.749d8a43.jpg",
     "static/media/me.e0ec5f51.png": "/brianventura/static/media/me.e0ec5f51.png",
     "static/media/resume.f7f94b93.png": "/brianventura/static/media/resume.f7f94b93.png",
-    "static/media/sa-application.808733a3.png": "/brianventura/static/media/sa-application.808733a3.png"
+    "static/media/sa-application.808733a3.png": "/brianventura/static/media/sa-application.808733a3.png",
+    "static/media/tetris.9c74c29e.png": "/brianventura/static/media/tetris.9c74c29e.png"
   },
   "entrypoints": [
     "static/js/runtime-main.68d86033.js",
     "static/css/2.567f37b8.chunk.css",
     "static/js/2.89ba123f.chunk.js",
     "static/css/main.f943a97c.chunk.css",
-    "static/js/main.262617d2.chunk.js"
+    "static/js/main.0800b293.chunk.js"
   ]
 }
