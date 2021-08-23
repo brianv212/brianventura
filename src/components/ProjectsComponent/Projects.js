@@ -6,6 +6,7 @@ import CovidSim from '../../images/covidsim1.png'
 import ComputerVision from '../../images/computer-vision.jpg'
 import eSports from '../../images/esports2.png'
 import AlgoRacing from '../../images/algracing1.png'
+import Tetris from '../../images/tetris.png'
 
 import {Grid} from 'semantic-ui-react'
 
@@ -19,6 +20,22 @@ function Projects () {
         <>
             <h1 className="projects-title">Past Works</h1>
             <Grid columns={3} doubling style={{margin: "0rem 3rem 0rem 3rem"}}>
+                <Grid.Column>
+                    <div className="projects-content">
+                        <img src={Tetris} alt="Covid-19 Simulator" className="projects-feature-img"/>
+                        <p> 
+                            Tetris is one of my favorite games. I thought it'd be a neat idea to try to code it and
+                            also get back in touch with Python because I haven't really done much with the language.
+                            There's a lot to add to make it better, so I see it as something I can always go back to
+                            and add to when I get the chance.
+                        </p>
+                        <h5>-August 2021</h5>
+                        <hr/>
+                        <div className="projects-additional-links">
+                            <a href="https://github.com/brianv212/tetris" target="_blank" rel="noreferrer">Repository</a>
+                        </div>                        
+                    </div>
+                </Grid.Column>
                 <Grid.Column>
                     <div className="projects-content">
                         <img src={SocialApp} alt="Covid-19 Simulator" className="projects-feature-img"/>
@@ -115,7 +132,6 @@ function Projects () {
                             <a href="https://brianv212.github.io/algorithm_racing" target="_blank" rel="noreferrer">Website</a>
                         </div>                        
                     </div>
-
                 </Grid.Column>
             </Grid>
             <div className="projects-skills">
