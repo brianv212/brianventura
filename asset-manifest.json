@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/brianventura/static/css/main.f943a97c.chunk.css",
-    "main.js": "/brianventura/static/js/main.0800b293.chunk.js",
-    "main.js.map": "/brianventura/static/js/main.0800b293.chunk.js.map",
+    "main.js": "/brianventura/static/js/main.fe1eb7d5.chunk.js",
+    "main.js.map": "/brianventura/static/js/main.fe1eb7d5.chunk.js.map",
     "runtime-main.js": "/brianventura/static/js/runtime-main.68d86033.js",
     "runtime-main.js.map": "/brianventura/static/js/runtime-main.68d86033.js.map",
     "static/css/2.567f37b8.chunk.css": "/brianventura/static/css/2.567f37b8.chunk.css",
@@ -34,6 +34,6 @@
     "static/css/2.567f37b8.chunk.css",
     "static/js/2.89ba123f.chunk.js",
     "static/css/main.f943a97c.chunk.css",
-    "static/js/main.0800b293.chunk.js"
+    "static/js/main.fe1eb7d5.chunk.js"
   ]
 }
