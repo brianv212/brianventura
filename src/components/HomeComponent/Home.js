@@ -7,20 +7,20 @@ import {Link} from 'react-router-dom'
 import CovidSim from '../../images/covidsim1.png';
 import CS171 from '../../images/ai.jpg'
 import Resume from '../../images/resume.png'
-import Live from '../../images/Brian_Ventura.pdf'
+import Live from '../../images/BrianVentura_.pdf'
 
 function Home () {
     return (
         <>
+            <img src={Me} className="home-me" alt="Hello!"/>
             <div className="home-container">
-                <img src={Me} className="home-me" alt="Hello!"/>
                 <p className="home-bio">My name is Brian Ventura and I am a fourth year computer science major at UCI seeking a software engineering internship. 
                 Learned about front end work around Summer of 2020 
                 and fed that interest by building websites. I have experience with Javascript and
                 ReactJS and incorporated different technologies such as Firebase and MongoDB
                 to heighten my skills as an aspiring web developer. Thanks for stopping by!</p>
             </div>
-            <Grid columns={3} doubling style={{margin: "0rem 3rem 0rem 3rem"}}>
+            <Grid columns={3} doubling style={{margin: "0rem 3rem 1rem 3rem"}}>
                 <Grid.Column>
                     <div className="projects-content">
                         <Link to="/brianventura/projects" style={{color: "white"}}>
@@ -32,7 +32,7 @@ function Home () {
                 </Grid.Column>
                 <Grid.Column>
                     <div className="home-split-features-container">
-                        <a href={Live} download="Brian_Ventura.pdf" style={{color: "white"}}>
+                        <a href={Live} download="BrianVentura_.pdf" style={{color: "white"}}>
                             <div className="home-split-features-content">
                                 <img src={Resume} alt="Here's my resume"></img>
                                 <div>
@@ -48,7 +48,7 @@ function Home () {
                                 <img src={CS171} alt="Here's some unwanted content"></img>
                                 <div>
                                     <p style={{fontSize: "20px", margin: "0.5rem"}}>Classes</p>
-                                    <p style={{color: "grey", margin: "0.5rem"}}>Just a collection of classes I've taken in college</p>                      
+                                    <p style={{color: "grey", margin: "0.5rem"}}>Classes I've taken in college</p>                      
                                 </div>
                             </div>
                         </Link>
