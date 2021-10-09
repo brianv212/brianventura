@@ -21,14 +21,9 @@
     border-radius: 50%;
     line-height: 12rem;
     margin: 1rem auto;
-    opacity: 75%;
     text-align: center;
     z-index: 1;
     transition: var(--standardTransition)
-}
-
-.home-me:hover {
-    opacity: 100%;
 }
 
 .home-split-features-container {
