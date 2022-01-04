@@ -3,7 +3,7 @@ import './Projects.css'
 
 import SocialApp from '../../images/sa-application.png'
 import CovidSim from '../../images/covidsim1.png'
-import ComputerVision from '../../images/computer-vision.jpg'
+import aws from '../../images/aws.jpg'
 import eSports from '../../images/esports2.png'
 import AlgoRacing from '../../images/algracing1.png'
 import Tetris from '../../images/tetris.png'
@@ -22,14 +22,33 @@ function Projects () {
             <Grid columns={3} doubling style={{margin: "0rem 3rem 0rem 3rem"}}>
                 <Grid.Column>
                     <div className="projects-content">
-                        <img src={Tetris} alt="Covid-19 Simulator" className="projects-feature-img"/>
+                        <img src={aws} alt="Covid-19 Simulator" className="projects-feature-img"/>
+                        <p> 
+                            The official name of the project course I took over my final quarters in college
+                            was called "Project in Data and Web Applications". It was one of the hardest yet fulfilling
+                            courses I've ever taken because I had to create a full stack application alone. Handling
+                            database interactions with Java (backend), using MySQL for data storage, and using javascript
+                            to style my pages were just some of the many objectives of the course.
+                            <br/><h5>- December 2021</h5>
+                        </p>
+                        <hr/>
+                        <div className="projects-additional-links">
+                            No items to show!
+                        </div>                        
+                    </div>
+                </Grid.Column>
+                <Grid.Column>
+                    <div className="projects-content">
+                        <div className="projects-feature-img">
+                            <img src={Tetris} alt="Covid-19 Simulator" className="projects-feature-img"/>
+                        </div>
                         <p> 
                             Tetris is one of my favorite games. I thought it'd be a neat idea to try to code it and
                             also get back in touch with Python because I haven't really done much with the language recently.
                             There's a lot to add to make it better, so I see it as something I can always go back
                             and add to when I get the chance.
+                            <br/><h5>- August 2021</h5>
                         </p>
-                        <h5>-August 2021</h5>
                         <hr/>
                         <div className="projects-additional-links">
                             <a href="https://github.com/brianv212/tetris" target="_blank" rel="noreferrer">Repository</a>
@@ -44,30 +63,12 @@ function Projects () {
                             Thinking that the best way to do this would be to create a social media app, I 
                             utilized mongoDB and React to create a functioning website that'd allow me to 
                             strengthen my understanding of databases, while also touching on full stack development.
+                            <br/><h5>- July 2021</h5>
                         </p>
-                        <h5>-July 2021</h5>
                         <hr/>
                         <div className="projects-additional-links">
                             <a href="https://github.com/brianv212/sa-server" target="_blank" rel="noreferrer">Repo 1</a>
                             <a href="https://github.com/brianv212/sa-client" target="_blank" rel="noreferrer">Repo 2</a>
-                        </div>                        
-                    </div>
-
-                </Grid.Column>
-                <Grid.Column>
-                    <div className="projects-content">
-                        <img src={ComputerVision} alt="Covid-19 Simulator" className="projects-feature-img"/>
-                        <p> 
-                            This was labeled as a project course, and understandably so as I went in depth to learn
-                            about the intricacies of translating an image to 3D spaces. The class introduced a variety
-                            of topics, starting with the very basics to get an understanding of how this idea works.
-                            And in the end of it all, I successfully created a model purely from images - one of my greatest
-                            accomplishments.
-                        </p>
-                        <h5>-June 2021</h5>
-                        <hr/>
-                        <div className="projects-additional-links">
-                            No items to show!
                         </div>                        
                     </div>
 
@@ -81,8 +82,8 @@ function Projects () {
                             Spring 2021, with the only goal of having a good time, creating
                             <a href="https://devpost.com/software/sus-simulator" target="_blank" rel="noreferrer"> something</a> that could be an introduction
                             for my friend.
+                            <br/><h5>- March 2021</h5>
                         </p>
-                        <h5>-March 2021</h5>
                         <hr/>
                         <div className="projects-additional-links">
                             <a href="https://github.com/brianv212/covid-sim-1" target="_blank" rel="noreferrer">Repository</a>
@@ -102,8 +103,8 @@ function Projects () {
                             specific categories.<br/><br/>
                             This was more of a test of my ability to use an API for the first time with ReactJS, 
                             and it went well!
+                            <br/><h5>- December 2020</h5>
                         </p>
-                        <h5>-December 2020</h5>
                         <hr/>
                         <div className="projects-additional-links">
                             <a href="https://github.com/brianv212/eSportsTracker" target="_blank" rel="noreferrer">Repository</a>
@@ -124,8 +125,8 @@ function Projects () {
                             knowledge on Big O time and other algorithm concepts.<br/><br/>
                             This was my first ever website, and looking back, I can definitely see what I could've
                             done better.
+                            <br/><h5>- August 2020</h5>
                         </p>
-                        <h5>-August 2020</h5>
                         <hr/>
                         <div className="projects-additional-links">
                             <a href="https://github.com/brianv212/algorithm_racing" target="_blank" rel="noreferrer">Repository</a>

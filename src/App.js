@@ -2,14 +2,14 @@ import './App.css';
 import NavBar from './components/NavBarComponent/Navbar'
 import {
   BrowserRouter as Router,
-  Switch,
+  Routes,
   Route
 } from "react-router-dom";
 import 'semantic-ui-css/semantic.min.css'
 
 import Home from './components/HomeComponent/Home'
 import Projects from './components/ProjectsComponent/Projects'
-// import Contact from './components/ContactComponent/Contact'
+import Contact from './components/ContactComponent/Contact'
 import Classes from './components/ClassesComponent/Classes'
 import Footer from './components/Footer/Footer'
 
@@ -21,13 +21,13 @@ function App() {
     <div className="app-main">
       <Router>
         <NavBar/>
-        <Switch>
-          <Route path="/brianventura" exact component={Home}/>
-          <Route path="/brianventura/projects" exact component={Projects}/>
-          {/* <Route path="/contact" exact component={Contact}/> */}
-          <Route path="/brianventura/classes" exact component={Classes}/>
+        <Routes>
+          <Route path='/brianventura' element={<Home/>} />
+          <Route path='/brianventura/projects' element={<Projects/>} />
+          <Route path='/brianventura/classes' element={<Classes/>} />
+          <Route path='/brianventura/contact' element={<Contact/>} />
           {/* <Route path="/comments" exact component={Comments}/> */}
-        </Switch>  
+        </Routes>  
         <Footer/>      
       </Router>
     </div>

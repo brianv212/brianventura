@@ -1,14 +1,15 @@
 import React,{useState} from 'react';
-import gql from 'graphql-tag';
-
 import './Contact.css';
-
 import { Button, Form } from 'semantic-ui-react';
-import { useMutation } from '@apollo/react-hooks';
+
+import axios from "axios";
 
 function Contact (props) {
-    const [errors,setErrors] = useState({})
+    const [messageSent , setMessageSent] = useState(false);
 
+    const formId = "PgrJNO5T";
+    const formSparkUrl = `https://submit-form.com/${formId}`;
+    const [errors,setErrors] = useState({})
     const [values, setValues] = useState({
         email: '',
         message: ''
@@ -18,33 +19,56 @@ function Contact (props) {
       setValues({ ...values, [event.target.name]: event.target.value });
     };
   
-    const onSubmit = (event) => {
+    const onSubmit = async (event) => {
       event.preventDefault();
-      callback();
+      postSubmission();
     };
 
-    const [addComment, { loading }] = useMutation(CREATE_COMMENT, {
-        variables: values,
-        update() {
-            setErrors({});
-            setValues({
-                email: '',
-                message: ''
-            })
-            props.history.push('/');
-        },
-        onError(err) {
-            setErrors(err.graphQLErrors[0].extensions.errors);
-        }
-      });
+    const postSubmission = async () => {
+        console.log(values);
+        setErrors({});
 
-    function callback() {
-        addComment();
+        if (values.email !== "" && values.message !== "") {
+            try {
+                const result = axios.post(formSparkUrl, values);
+                setMessageSent(true);
+                console.log(result);
+            }
+            catch (err) {
+                console.log(err);
+            }
+        }
+        else {
+            if (values.email === "" && values.message === "") {
+                setErrors({
+                    email: "Please provide an email!",
+                    message: "Please provide a thoughtful message!"
+                })             
+            }
+            else if (values.message === ""){
+                setErrors({
+                    message: "Please provide a thoughtful message!"
+                })     
+            }
+            else {
+                setErrors({
+                    email: "Please provide an email!"
+                })     
+            }
+        }
     }
 
     return (
         <div className="contact-container">
-            <Form onSubmit={onSubmit} noValidate className={loading ? 'loading' : ''}>
+            {messageSent 
+            ? 
+            <div>
+                <h1 style={{marginTop: "10rem"}}>Message sent</h1>
+                <p>Thank you!</p>                
+            </div>
+
+            :
+            <Form onSubmit={onSubmit} noValidate>
                 <h1>Say Hi!</h1>
                 <Form.Input
                     placeholder="Email"
@@ -56,6 +80,7 @@ function Contact (props) {
                     className="contact-input"
                 />
                 <Form.TextArea
+                    style={{height: "250px", minHeight: "100px", maxHeight: "350px"}}
                     placeholder="Message.."
                     name="message"
                     type="message"
@@ -67,6 +92,7 @@ function Contact (props) {
                     Send
                 </Button>
             </Form>
+            }
             {Object.keys(errors).length > 0 && (
                 <div className="ui error message">
                     <ul className="list">
@@ -75,26 +101,9 @@ function Contact (props) {
                         ))}
                     </ul>
                 </div>
-            )}
+            )}    
         </div>
     )
 }
-
-const CREATE_COMMENT = gql`
-  mutation createMessage(
-    $email: String!
-    $message: String!
-  ) {
-    createMessage(
-        email: $email
-        message: $message
-    ) {
-      id
-      email
-      message
-      createdAt
-    }
-  }
-`;
 
 export default Contact

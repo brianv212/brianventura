@@ -5,3 +5,8 @@
     background-color: #151320;
     color: white;
 }
+
+::-webkit-scrollbar {
+    width: 0px;
+    display: none; /* make scrollbar transparent */
+}

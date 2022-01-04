@@ -14,9 +14,12 @@
     background-color: var(--subsection);
 }
 
+.projects-feature-img {
+    height: 200px;
+}
+
 .projects-content img {
-    max-width:100%;
-    max-height:100%;
+    width: 100%;
     border-radius: 10px 10px 0px 0px;
 }
 
@@ -28,12 +31,13 @@
 }
 
 .projects-content p {
-    margin: 0.5rem 1rem 0rem 1rem;
+    height: 200px;
+    overflow-y: scroll;
+    margin: 0.5rem 1rem 2rem 1rem;
 }
 
 .projects-content h5 {
     font-style: italic;
-    margin-left: 1rem;
 }
 
 .projects-additional-links {
@@ -50,8 +54,6 @@
 .projects-additional-links a:hover {
     color: green
 }
-
-
 
 .projects-skills {
     background-color: var(--subsection);

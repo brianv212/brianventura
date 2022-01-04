@@ -14,8 +14,10 @@ function NavBar () {
                 Welcome!
             </div>
             <div className="navbar-directory">
+                <Link to="/brianventura" className="navbar-link">Home</Link>
                 <Link to="/brianventura/projects" className="navbar-link">Projects</Link>
-                {/* <Link to="/contact" className="navbar-link">Contact Me</Link>                 */}
+                <Link to="/brianventura/classes" className="navbar-link">Classes</Link>
+                <Link to="/brianventura/contact" className="navbar-link">Contact</Link>                
             </div>
             
         </div>

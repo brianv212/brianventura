@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/brianventura/static/css/main.b16a6cc5.chunk.css",
+    "main.css": "/brianventura/static/css/main.4f31ee4c.chunk.css",
     "main.js": "/brianventura/static/js/main.98450117.chunk.js",
     "main.js.map": "/brianventura/static/js/main.98450117.chunk.js.map",
     "runtime-main.js": "/brianventura/static/js/runtime-main.68d86033.js",
@@ -12,7 +12,7 @@
     "static/js/3.aa3d6fc6.chunk.js.map": "/brianventura/static/js/3.aa3d6fc6.chunk.js.map",
     "index.html": "/brianventura/index.html",
     "static/css/2.567f37b8.chunk.css.map": "/brianventura/static/css/2.567f37b8.chunk.css.map",
-    "static/css/main.b16a6cc5.chunk.css.map": "/brianventura/static/css/main.b16a6cc5.chunk.css.map",
+    "static/css/main.4f31ee4c.chunk.css.map": "/brianventura/static/css/main.4f31ee4c.chunk.css.map",
     "static/js/2.89ba123f.chunk.js.LICENSE.txt": "/brianventura/static/js/2.89ba123f.chunk.js.LICENSE.txt",
     "static/media/BrianVentura_.0d5a0f20.pdf": "/brianventura/static/media/BrianVentura_.0d5a0f20.pdf",
     "static/media/algracing1.9afada92.png": "/brianventura/static/media/algracing1.9afada92.png",
@@ -33,7 +33,7 @@
     "static/js/runtime-main.68d86033.js",
     "static/css/2.567f37b8.chunk.css",
     "static/js/2.89ba123f.chunk.js",
-    "static/css/main.b16a6cc5.chunk.css",
+    "static/css/main.4f31ee4c.chunk.css",
     "static/js/main.98450117.chunk.js"
   ]
 }
