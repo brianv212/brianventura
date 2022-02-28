@@ -49,3 +49,19 @@
     width: 35%;
     border-radius: 10px;
 }
+
+.home-grid {
+    margin: 0 var(--margin) 2rem var(--margin);
+}
+
+@media screen and (max-width: 767px) and (min-width: 478px) {
+    .home-grid {
+        margin: 0 2.5rem 2rem 2.5rem;
+    }
+}
+
+@media screen and (max-width: 477px) {
+    .home-grid {
+        margin: 0 1rem 2rem 1rem;
+    }
+}

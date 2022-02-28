@@ -9,7 +9,9 @@ import Me from '../../images/icon.jpg'
 function NavBar () {
     return (
         <div className="navbar-container">
-            <Link to="/brianventura" className="navbar-link"><img src={Me} className="navbar-me" alt="It's me!"/></Link>
+            <Link to="/brianventura" className="navbar-link">
+                <img src={Me} className="navbar-me" alt="It's me!"/>
+            </Link>
             <div className="navbar-title">
                 Welcome!
             </div>
@@ -19,7 +21,6 @@ function NavBar () {
                 <Link to="/brianventura/classes" className="navbar-link">Classes</Link>
                 <Link to="/brianventura/contact" className="navbar-link">Contact</Link>                
             </div>
-            
         </div>
     )
 }

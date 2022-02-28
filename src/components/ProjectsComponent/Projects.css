@@ -30,7 +30,7 @@
     background: white;
 }
 
-.projects-content p {
+.projects-content > .text {
     height: 200px;
     overflow-y: scroll;
     margin: 0.5rem 1rem 2rem 1rem;
@@ -60,4 +60,20 @@
     border-radius: 10px;
     margin: 2rem var(--margin) 2rem var(--margin);
     height: auto
+}
+
+.projects-grid {
+    margin: 0 var(--margin) 0 var(--margin);
+}
+
+@media screen and (max-width: 767px) and (min-width: 478px) {
+    .projects-grid {
+        margin: 0 var(--margin) 2rem var(--margin);
+    }
+}
+
+@media screen and (max-width: 477px) {
+    .projects-grid {
+        margin: 0 1rem 2rem 1rem;
+    }
 }

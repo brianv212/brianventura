@@ -1,0 +1,15 @@
+.grid {
+    margin: 0 var(--margin) 2rem var(--margin);
+}
+
+@media screen and (max-width: 767px) and (min-width: 478px) {
+    .grid {
+        margin: 0 var(--margin) 0 var(--margin);
+    }
+}
+
+@media screen and (max-width: 477px) {
+    .grid {
+        margin: 0 1rem 0 1rem;
+    }
+}

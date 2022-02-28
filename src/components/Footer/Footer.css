@@ -6,10 +6,11 @@
 }
 
 .footer-container {
-    margin-left: var(--margin);
+    margin: 0 0 0 var(--margin);
     line-height: 5rem;
     display: flex;
     flex-direction: row;
+    justify-content: baseline;
 }
 
 .footer-container > * {
@@ -23,4 +24,10 @@
 
 .footer-link:hover {
     color: green
+}
+
+@media screen and (max-width: 419px) {
+    .footer-container {
+        justify-content: center;
+    }
 }
